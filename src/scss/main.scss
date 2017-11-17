@@ -1,0 +1,16 @@
+.menu {
+  display: none;
+  transform: translateX(200px);
+  span {
+    display: inline-block;
+    border: 2px solid black;
+    width: 10px;
+  }
+  &__open {
+    display: block;
+    transition: transform .3s ease;
+  }
+  &__close {
+    display: none;
+  }
+}

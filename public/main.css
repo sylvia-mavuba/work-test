@@ -1,0 +1,15 @@
+.menu {
+  display: none;
+  -webkit-transform: translateX(200px);
+          transform: translateX(200px); }
+
+.menu__open {
+  display: block;
+  transition: -webkit-transform .3s ease;
+  transition: transform .3s ease;
+  transition: transform .3s ease, -webkit-transform .3s ease; }
+
+.menu__close {
+  display: none; }
+
+/*# sourceMappingURL=main.css.map*/
